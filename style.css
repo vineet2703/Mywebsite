@@ -1,0 +1,261 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.image {
+    width: 45px;
+    border: solid white;
+    border-radius: 990px;
+    margin-right: 20%;
+}
+.navbar {
+    display: flex;
+}
+
+.nav-list {
+    width: 50%;
+}
+
+.nav-list li {
+    margin: 2px;
+    list-style: none;
+}
+
+.links {
+    position: absolute;
+    display: flex;
+    position:sticky;
+    gap: 40px;
+    margin-left: 1%;
+    top: 4px;
+    width: 1254px;
+    background-color: rgb(35, 34, 34);
+    align-items: center; 
+    border-radius: 3px;
+}
+
+.links a {
+    color: white;
+    font-size: larger;
+    gap: 33px;
+}
+
+.nav-list li a {
+    text-decoration: none;
+}
+
+.links li :hover {
+    color: red;
+}
+
+.background {
+    /* background: rgba(0,0,0,0.7)url('11.jpg'); */
+    background: rgba(0,0,0,0.7)url('london.jpg');
+    object-fit: fill;
+    background-size: cover;
+    background-blend-mode: darken;
+    height:930px;
+}
+
+.new_item{
+    margin-left: 500px;
+}
+
+.new_item input{
+    padding: 4px;
+    border-radius: 5px;
+    border: none;
+}
+
+.new_btn{
+    padding: 5px;
+    border-radius: 5px;
+    border: none
+}
+
+.content{
+    color: white;
+    height: 333px;
+}
+
+#para{
+    margin-left: 2%;
+}
+
+.btn{
+    cursor: pointer;
+    margin-top: 2%;
+    padding: 8px 8px;
+    border: solid white;
+    border-radius: 5px;
+    background: none;
+    color: white;
+}
+
+.butn{
+    cursor: pointer;
+    margin-top: 2%;
+    padding: 7px 8px;
+    border: solid white;
+    border-radius: 5px;
+    background: none;
+    color: white;
+}
+
+.buttons{
+    margin-top: 150px;
+    margin-left: 70%;
+    gap: 5px;
+}
+
+.content h4{
+    flex:none;
+    margin-left: 290px;
+    margin: auto;
+    font-size: 35px;
+    align-items: center;
+    margin-left: 12px;
+    position: absolute;
+    right: 30%;
+    top: 26%;
+}
+.secondhalf{
+    margin-left: 270px;
+}
+
+.secright{
+    height: 300px;
+    display: flex;
+    align-items: center;
+}
+
+.imagefluid1{
+    width: 200px;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+
+.imagefluid2{
+        width: 210px;
+        border-radius: 20px;
+        margin-left: 10px;
+}
+
+.imagefluid3{
+    width: 210px;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+
+
+.sectag{
+    font-size: 28px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.para{
+    padding: 200px 34px;
+    padding-left: 33px;
+    padding-top: 220px;
+}
+
+.secleft{
+    height: 160px;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.paras{
+    padding: 200px 34px;
+    padding-left: 33px;
+    padding-top: 220px;
+}
+
+.secsubtag{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.secnewright{
+    height: 300px;
+    display: flex;
+    align-items: center;
+}
+
+.new_btn{
+    cursor: pointer;
+}
+
+.contact{
+    background-color: #e6e5e4;
+    height: 100vh;
+    margin: auto;
+}
+
+.contact-us{
+    text-align: center;
+}
+
+.info1{
+    /* margin: auto; */
+    text-align: center;
+}
+
+#Name{
+    width: 20%;
+    padding: 10px;
+    border: solid grey 1.4px;
+    border-radius: 10px;
+    margin-top: 22px;
+}
+
+.info2{
+    /* margin: auto; */
+    text-align: center;
+    margin-top: 22px;
+}
+
+#mail-id{
+    width: 20%;
+    padding: 10px;
+    border: solid grey 1.4px;
+    border-radius: 10px;
+}
+
+.info3{
+    /* margin: auto; */
+    text-align: center;
+    margin-top: 22px;
+}
+
+#number{
+    width: 20%;
+    padding: 10px;
+    border: solid grey 1.4px;
+    border-radius: 10px;
+}
+
+.info4{
+    /* margin: auto; */
+    text-align: center;
+    margin-top: 22px;
+}
+
+#concern{
+    width: 30%;
+    padding: 20px;
+    border: solid grey 1.4px;
+    border-radius: 10px;
+    margin-left: 140px;
+}
+
+.mybtn{
+    cursor: pointer;
+    align-items: center;
+    margin-left: 40%;
+    padding: 8px;
+    width: 10%;
+    margin-top: 27px;
+    border-radius: 8px;
+}
